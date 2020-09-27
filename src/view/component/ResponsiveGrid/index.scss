@@ -1,0 +1,10 @@
+.responsive-grid {
+  --grid-column-count: 3;
+  --grid-column-gap: 24px;
+  --grid-width: 80%;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-column-count), 1fr);
+  column-gap: var(--grid-column-gap);
+  row-gap: 16px;
+  width: var(--grid-width);
+}

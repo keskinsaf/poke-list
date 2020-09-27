@@ -1,0 +1,39 @@
+div {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.horizontal-flow {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.vertical-flow {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main-axis-centered {
+  justify-content: center;
+}
+
+.cross-axis-centered {
+  align-items: center;
+}
+
+.oval-border {
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.relative {
+  display: relative;
+}

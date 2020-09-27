@@ -1,0 +1,8 @@
+.pokemon-list-page {
+  height: auto !important;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  & > img {
+    margin-top: 32px;
+  }
+}

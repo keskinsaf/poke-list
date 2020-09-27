@@ -1,0 +1,15 @@
+.detail-card {
+  background-color: white;
+  height: auto;
+  width: 300px;
+  padding: 16px;
+  border: 1px solid black;
+  .header {
+    .close-button {
+      margin-left: auto;
+      background-color: transparent;
+      border-color: transparent;
+      cursor: pointer;
+    }
+  }
+}
